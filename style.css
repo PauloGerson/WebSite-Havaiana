@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(197,110,226);
+  background: linear-gradient(254deg, rgba(197,110,226,1) 32%, rgba(21,200,208,1) 81%);
+ 
+}
+.container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container .conteudo{
+  border-radius: 8px;
+  padding:12px ;
+  width: 70vw;
+  height: 90vh;
+  margin:30px ;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+ul {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+  
+}
+.menu li{
+  list-style: none;
+  margin-left: 2rem;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+.menu li:first-child{
+  background-color: #db7609;
+  padding: 6px;
+  border-radius: 4px;
+
+}
+.p1{
+position: relative;
+left: 12.5rem;
+top: 8rem;
+font-size: 16px;
+font-family: 'Poppins';
+color: white;
+font-weight: bold;
+}
+.p1 span{
+  font-size: 27px;
+}
+
+.redes{
+  cursor: pointer;
+  position: relative;
+  top: 13rem;
+  left: 3rem;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.redes img{
+  margin-bottom: 1.5rem;
+}
+.shoes{
+  position: relative;
+  bottom: 7rem;
+  left: 24rem;
+  width: 50vh;
+ 
+}
+
+.tenis{
+ 
+  animation: float 6s ease-in-out infinite;;
+}
+@keyframes float {
+	0% {
+	
+		transform: translatey(0px);
+	}
+	50% {
+	
+		transform: translatey(-40px);
+	}
+	100% {
+	
+		transform: translatey(0px);
+	}
+}
+
+
+
+
+
+
